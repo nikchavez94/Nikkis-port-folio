@@ -1,8 +1,19 @@
 
 
 
-
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    background-image: url("plantbackground.avif")
+    background-size: cover;
+    background-repeat: no-repeat
+    
+}
 
 .img-profile {
     width: 200px;
 }
+
+
