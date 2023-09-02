@@ -3,20 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikki's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Nicole Vargas Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<header>
-
-</header>
-
 <body>
-     <h1>Nicole Vargas</h1>
-    <img class="img-profile" src="IMG_2723.JPG" alt="Nikkis Profile Pic">
-    <h4>angela94.chavez@gmail.com</h4>
-    
+    <script src="script.js"></script>
+    <div class="container"> <!-- Main Container-->
+    <header>
+        <h1>Nicole Vargas</h1>
+        <img src="Foto.JPG" alt="Foto del Desarrollador">
+        <nav>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">My Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="About">
+        <h2>About Nicole Vargas</h2>
+        <p>Nicole Vargas, 29 years old, currently living in Houston, TX. Originally from Indiana,
+             she enjoys outdoor activities, cooking, music, art, and technology. The latter interest
+              is what has led her to pursue an education in coding, and she hopes to make the career
+              jump from Language Arts teacher to programmer. She hopes to learn code and branch into
+               software development or application creation.</p>
+    </section>
+
+    <section id="Projects">
+        <h2>My Projects</h2>
+        <p>The image below shows a preview of my first project completed during the bootcamp.
+             Please click on the image to access the finished project.</p>
+        
+        <div class="project-container">
+            <a class="project-link" href="https://nikchavez94.github.io/Horiseon/" target="_blank">
+                <img src="horiseon.png" alt="Project Webpage Image">
+            </a>
+        </div>
+        <p> The project was based on making sure that the functioning code was understandable, and
+             functional with CSS. By this I mean that some elements may have needed to be moved
+            to make more fluidity with the elements in the HTML. It was also required to add commenting
+        to each section of code to ensure understanding.  </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        Email: <a href="mailto:angela94.chavez@gmail.com">angela94.chavez@gmail.com</a> 
+    </section>
 </body>
-
-
-
 </html>
